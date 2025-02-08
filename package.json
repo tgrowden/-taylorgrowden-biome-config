@@ -1,0 +1,17 @@
+{
+  "name": "@taylorgrowden/biome-config",
+  "private": false,
+  "type": "module",
+  "version": "1.0.1",
+  "license": "MIT",
+  "exports": {
+    ".": "./biome.json",
+    "./biome": "./biome.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^1.9.4"
+  }
+}
